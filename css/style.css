@@ -8,7 +8,7 @@ html {
   .search-one {
     display: block;
     font: 1rem 'Raleway', sans-serif;
-    box-sizing: content-box 48px;
+    box-sizing: 48px;
     border-color: lightgray;
     line-height: 5;
     width: 300px;
@@ -282,7 +282,7 @@ html {
     flex-direction: column;
     padding: 15px;
     width: 31%;
-    max-height:50% auto;
+    max-height:50%;
     background-color:#F2F2F2;
     border-radius: 30px;
     margin: 10px;
