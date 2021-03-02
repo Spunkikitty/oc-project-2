@@ -190,7 +190,7 @@ html {
   }
 
   #city i {
-    top:1;
+   top:1; 
     border: 1px solid #deebff;
   color: #0065fc;
   border-radius: 50%;
@@ -244,7 +244,7 @@ html {
 
 
   }
-  .signup{
+  .signup {
     
     width:10%; 
     padding-top:23px;
@@ -282,7 +282,7 @@ html {
     flex-direction: column;
     padding: 15px;
     width: 31%;
-    max-height:50%;
+    max-height:50% auto;
     background-color:#F2F2F2;
     border-radius: 30px;
     margin: 10px;
