@@ -33,10 +33,19 @@
 
     <!-- the search bar -->
     <form action="#">
+      <div id="content-desktop">
       <i class="fas fa-map-marker-alt search-icon"></i>
       <input type="search" class="site-search" name="q" placeholder="Marseille, France"
         aria-label="Search through site content">
       <button class="search-btn" type="button">Search</button>
+    </div>
+      
+      <div id="content-mobile">
+      <i class="fas fa-map-marker-alt search-icon"></i>
+      <input type="search" class="site-search" name="q" placeholder="Marseille, France"
+        aria-label="Search through site content">
+      <button class="search-btn" type="button"><i class="fas fa-search"></i></button>
+      </div>
     </form>
 
 
@@ -51,13 +60,13 @@
         <!-- use flexbox on this wrapper to change order of filter buttons BY using the flexbox property order on each button-->
         <button class="filter-btn f-1">
           <i class="fas fa-money-bill-wave fa-2.5x cat-primary"></i>
-          <span>Low Cost</span>
+          <span>Low cost</span>
         </button>
 
         
         <button class="filter-btn f-2">
-          <i class="fas fa-male fa-2.5x cat-primary"></i>
-          <span>Family-Friendly</span>
+          <i id="family-icon" class="fas fa-child fa-2.5x cat-primary"></i>
+          <span>Family-friendly</span>
         </button>
 
 
@@ -70,7 +79,7 @@
        
         <button class="filter-btn f-4">
           <i class="fas fa-cat fa-2.5x cat-primary"></i>
-          <span>Pets Allowed</span>
+          <span>Pets allowed</span>
         </button>
 
       </div>
