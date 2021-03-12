@@ -145,7 +145,7 @@ html {
     border-radius: 95%;
     border-color: #deebff;
     background-color: #deebff;
-    margin-left: -5px;
+    margin-left: -9px;
   }
   
   .heart-primary {
@@ -163,7 +163,7 @@ html {
 height: 15px;
 margin-top: -2px;
 margin-bottom: -2px;
-margin-left: -7px;
+margin-left: -9px;
 text-align: center;
 line-height: 15px;
 font-size: 1em;
@@ -428,14 +428,17 @@ border-radius: 50%
     height: 125px; /* set this height for the images  */
   }
   
-.rating-2 {
-  margin-top: -15px;
-  
+.rating-1{
+  margin-top:19px;
+}
 
+.rating-2 {
+  margin-top: -9px;
 }
 
 .rating-3{ 
-  margin-top: -10px;
+  margin-top:32px;
+  
 }
 
   .filled-star {
@@ -447,21 +450,33 @@ border-radius: 50%
   }
 
 #pop-1{ 
-  margin:5px; 
+  margin-top:-5px; 
 }
-  
+
+#sun-1 { 
+  margin-top:-6px;
+}
+
+#sun-2 {
+  font-size:11pt;
+}
+
 #cost-1{
-  margin:6.5px;
+  margin:6.1px;
+  font-size: 11pt;
 }
 
 #pop-2{
-  margin:10px 0 31px 0; 
+  margin:-5px 0 31px 0; 
 }
 
 #cost-2{
   padding:15px;
-
 }
+
+#cost-3{ 
+  font-size: 11pt;
+  }
 
   h3 {
     justify-content: center;
